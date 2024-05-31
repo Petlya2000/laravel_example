@@ -25,7 +25,7 @@
 		     <td><h4>{{ $bb->title}}</h4></td>
 		     <td>{{$bb->price}}</td>
 		     <td>
-			<a href="/{{ $bb->id}}/">Podrobnee...</a>
+			<a href="/laravelapp/public/{{ $bb->id}}/">Podrobnee...</a>
 		     </td>
 		 </tr>
 		@endforeach
